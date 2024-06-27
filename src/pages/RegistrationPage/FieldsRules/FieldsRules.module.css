@@ -1,0 +1,32 @@
+.panel__descriptions {
+  background-color: var(--background-color);
+  color: var(--color-text);
+  padding: 50px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.panel__item {
+  display: flex;
+}
+
+.passwords__match {
+  display: flex;
+  margin-top: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-text);
+}
+
+.correct_rule {
+  color: var(--primary);
+}
+
+.incorrect_rule {
+  color: var(--additional);
+}

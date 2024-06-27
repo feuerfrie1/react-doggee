@@ -1,0 +1,39 @@
+.field_rule {
+  font-weight: 600;
+  display: inline-block;
+  margin: 0 0.35rem;
+}
+
+.field_rule_correct {
+  color: var(--primary);
+}
+
+.field_rule_incorrect {
+  color: var(--additional);
+}
+
+.descriptions_icon_container {
+  width: 1.28rem;
+  margin-right: 0.71rem;
+  display: flex;
+  align-items: center;
+}
+
+.icon_correct_rule {
+  width: 1.21rem;
+  height: 13px;
+  background-image: url("../../../../static/images/checkmark_additional.svg");
+}
+
+.icon_incorrect_rule {
+  width: 1.21rem;
+  height: 13px;
+  background-image: url("../../../../static/images/warning.svg");
+  background-repeat: no-repeat;
+}
+
+.field_rule_container {
+  color: var(--color-text);
+  display: flex;
+  align-items: center;
+}

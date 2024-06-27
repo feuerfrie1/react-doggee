@@ -1,0 +1,26 @@
+.content {
+  background-color: var(--background-color);
+}
+
+.light {
+  background-image: url("../../static/images/dark_theme_icon.svg");
+  background-color: var(--background-color);
+  background-repeat: no-repeat;
+  width: 3.125rem;
+  height: 3.125rem;
+  position: absolute;
+  right: 1.875rem;
+  top: 1.875rem;
+  cursor: pointer;
+}
+
+.dark {
+  background-image: url("../../static/images/light_theme_icon.svg");
+  background-repeat: no-repeat;
+  width: 3.125rem;
+  height: 3.125rem;
+  position: absolute;
+  right: 1.875rem;
+  top: 1.875rem;
+  cursor: pointer;
+}

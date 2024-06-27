@@ -1,0 +1,19 @@
+:root {
+  /* colors */
+  --primary: #f5c678;
+  --primary7: rgba(245, 198, 120, 0.7);
+  --additional: #93b1ff;
+  --color-white: #fff;
+  --color-black: #000;
+  --additional7: rgba(147, 177, 255, 0.7);
+  --text-validation: #db3939;
+  --text-validation7: rgba(219, 57, 57, 0.3);
+  --transition: all 0.3s;
+
+  /* images */
+  --images-calendar: url("../images/arrow_additional.svg");
+
+  /* spacing */
+
+  /* text */
+}
