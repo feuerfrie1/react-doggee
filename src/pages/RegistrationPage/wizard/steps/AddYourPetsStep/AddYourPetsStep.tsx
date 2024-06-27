@@ -1,6 +1,6 @@
 import React from "react";
 
-import Button from "@common/buttons/Button/Button";
+import Button from "../../../../../common/buttons/Button/Button";
 import { RegistrationWizardContainer } from "../../RegistrationWizardContainer/RegistrationWizardContainer";
 import { PetForm } from "./components/PetForm/PetForm";
 import { PetList } from "./components/PetList/PetList";

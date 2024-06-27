@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Outlet } from "react-router-dom";
-import { useTheme } from "@features/theming/hooks/useTheme";
+import { useTheme } from "../../features/theming/hooks/useTheme";
 import styles from "./MainLayout.module.css";
 
 const MainLayout: React.FC = () => {

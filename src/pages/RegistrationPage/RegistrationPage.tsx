@@ -45,7 +45,6 @@ export const RegistrationPage: React.FC = () => {
   const [step, setStep] = useState<
     "fillLoginData" | "fillProfileData" | "addPetsData" | "checkData"
   >("fillLoginData");
-  console.log("step", step);
   return (
     <>
       {step === "fillLoginData" && (

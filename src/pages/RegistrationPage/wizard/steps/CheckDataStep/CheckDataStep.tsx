@@ -1,6 +1,6 @@
 import React from "react";
 
-import Button from "@common/buttons/Button/Button";
+import Button from "../../../../../common/buttons/Button/Button";
 import { formatDate } from "../../../../../utils/helpers/date/formatDate";
 
 import { RegistrationWizardContainer } from "../../RegistrationWizardContainer/RegistrationWizardContainer";

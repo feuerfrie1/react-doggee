@@ -2,7 +2,7 @@ import React from "react";
 
 import { useSelect } from "./hooks/useSelect";
 
-import Input from "@common/fields/inputs/Input/Input";
+import Input from "../../../../common/fields/inputs/Input/Input";
 import inputStyles from "../../inputs/Input/Input.module.css";
 import selectStyles from "./Select.module.css";
 import { FieldProps } from "@common/fields/inputs/Input/Input";

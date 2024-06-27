@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 
-import Input from "@common/fields/inputs/Input/Input";
-import { DateInput } from "@common/fields/inputs";
+import Input from "../../../../../../../common/fields/inputs/Input/Input";
+import { DateInput } from "../../../../../../../common/fields/inputs/DateInput/DateInput";
 import { validateIsEmpty } from "../../../../../../../utils/helpers/validations/validateIsEmpty";
 import { validateMaxLength } from "../../../../../../../utils/helpers/validations/validateMaxLength";
 import { useForm } from "../../../../../../../utils/helpers/hooks/form/useForm";
 import { FormattedMessage } from "react-intl";
-import { Select } from "@common/fields/selects";
+import { Select } from "../../../../../../../common/fields/selects/Select/Select";
 import axios from "axios";
 
 import styles from "../../../../../RegistrationPage.module.css";
