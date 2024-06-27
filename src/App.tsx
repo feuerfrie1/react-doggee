@@ -15,7 +15,7 @@ import NotFoundPage from "./pages/NotFoundPage/NotFoundPage";
 const AuthRoutes = () => (
   <Routes>
     <Route path="/" element={<MainLayout />}>
-      <Route path="/main" element={<MainPage />} />
+      <Route path="" element={<MainPage />} />
       <Route path="/auth" element={<LoginPage />} />
       <Route path="/registration" element={<RegistrationPage />} />
       <Route path="*" element={<NotFoundPage />} />
